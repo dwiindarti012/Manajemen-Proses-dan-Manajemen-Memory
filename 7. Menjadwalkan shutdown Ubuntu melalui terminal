@@ -1,0 +1,5 @@
+a.	Buka terminal dengan Ctrl + Alt + T.
+b.	Ketik sudo shutdown -h 04:10 lalu tekan Enter.
+c.	Sistem akan menampilkan jadwal shutdown.
+d.	Sistem akan mati sesuai waktu yang ditentukan.
+e.	Otomatis kembali ke VirtualBox.
