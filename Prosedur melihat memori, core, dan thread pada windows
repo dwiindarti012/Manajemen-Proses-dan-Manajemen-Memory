@@ -1,0 +1,14 @@
+a.	Tekan Ctrl + Shift + Esc untuk membuka Task Manager.
+b.	Klik ikon garis tiga di bagian kiri atas.
+c.	Pilih menu “Performance”.
+d.	Pilih bagian Memory, maka akan ditampilkan informasi: 
+•	Penggunaan RAM
+•	Sisa RAM
+•	Kecepatan RAM
+•	Memori terkompres
+e.	Selanjutnya pilih bagian CPU, akan terlihat: 
+•	Penggunaan CPU
+•	Kecepatan CPU
+•	Jumlah core dan thread
+•	Status virtualisas
+•	Waktu aktif sistem
