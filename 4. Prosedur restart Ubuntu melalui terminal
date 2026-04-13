@@ -1,0 +1,4 @@
+a.	Buka terminal dengan Ctrl + Alt + T.
+b.	Ketik perintah sudo reboot, lalu tekan Enter.
+c.	Masukkan password pengguna lalu tekan enter.
+d.	Sistem akan melakukan restart secara otomatis.
