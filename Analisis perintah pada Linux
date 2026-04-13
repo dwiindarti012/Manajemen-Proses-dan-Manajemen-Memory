@@ -1,0 +1,70 @@
+a.	Perintah free -h
+Perintah ini digunakan untuk menampilkan informasi penggunaan memori (RAM) dan swap. 
+
+b.	Tampilan htop 
+Merupakan tools monitoring sistem berbasis terminal, Langkah-langkah menampilkan htop:
+1)	Sudo apt update
+2)	Sudo apt install htop
+3)	htop
+  Ada tampilan htop terdapat beberapa informasi berikut:
+•	Penggunaan CPU
+•	Penggunaan Memori (RAM) dan swap
+•	Beban sistem(load)
+•	Daftar Proses yang Berjalan
+
+c.	Informasi penggunaan memori detail   
+Perintah “cat /proc/meminfo” digunakan untuk menampilkan informasi detail tentang penggunaan memori di sistem Linux. 
+
+d.	Informasi prosesor (CPU)   
+Perintah “cat /proc/cpuinfo” digunakan untuk menampilkan informasi detail tentang prosesor (CPU) di sistem Linux.
+
+e.	Detail tambahan CPU 
+Perintah  “lscpu” digunakan untuk menampilkan informasi tentang CPU dengan lebih ringkas dan mudah dibaca
+
+f.	Informasi swap  
+Perintah “swapon --summary” digunakan untuk menampilkan informasi tentang swap yang sedang digunakan oleh sistem. 
+Proses pembuatan swap:
+1)	Membuat file swap (“sudo fallocate -l 1G /swapfile”)
+2)	Mengatur izin (“sudo chmod 600 /swapfile”)
+3)	Mengubah menjadi swap (“sudo mkswap /swapfile”)
+4)	Mengaktifkan swap (“sudo swapon /swapfile”)
+5)	Mengecek swap (“free -h”)
+6)	Memanggil (“swapon –summary”)
+Swap menampilkan beberapa informasi berikut:
+•	Total kapasitas swap
+•	Penggunaan swap
+•	Jenis swap
+•	Prioritas swap
+
+g.	Statistik sistem
+Perintah “vmstat -s” digunakan untuk menampilkan statistik sistem dalam format yang lebih mudah dibaca. 
+
+h.	Daftar proses
+Perintah “ps aux –sort=%mem | head” digunakan untuk menampilkan daftar proses yang sedang berjalan di sistem dan mengurutkannya berdasarkan penggunaan memori dari yang terkecil ke terbesar. 
+
+i.	Aktivitas terminal Ubuntu
+Menunjukkan sesi terminal di sistem operasi Ubuntu dengan berbagai perintah yang digunakan untuk membuat folder, menulis dan menjalankan skrip Python serta shell, serta mengelola izin eksekusi file. 
+Perintah yang digunakan:
+•	mkdir → membuat direktori 
+•	nano → mengedit file 
+•	python3 → menjalankan program Python 
+•	chmod +x → memberikan izin eksekusi 
+•	./file.sh → menjalankan skrip shell
+
+j.	Nano
+Nano adalah text editor di terminal Linux yang digunakan untuk membuat dan mengedit file teks.
+Perintah dalan nano:
+•	Ctrl + O = Simpan file
+•	Ctrl + X = Keluar
+•	Ctrl + K = Hapus baris
+•	Ctrl + U = Paste
+1)	Nano nama_file.sh
+•	Digunakan untuk membuat skrip shell (Bash)
+•	Berisi perintah linux
+•	Biasanya perlu izin eksekusi “chmod +x”
+•	Dijalankan dengan ”./nama_file.sh”
+2)	Nano nama_file.py
+•	Digunakan untuk membuat progran Python
+•	Berisi kode Python
+•	Tidak perlu “chmod +x”
+•	Dijalankan dengan “python3 nama_file.py”
