@@ -1,0 +1,8 @@
+a.	Buka terminal dengan Ctrl + Alt + T.
+b.	Ketik sudo shutdown -r 07:07 lalu tekan Enter.
+c.	Sistem akan menampilkan jadwal restart.
+d.	Sistem akan restart sesuai waktu yang ditentukan.
+e.	Setelah restart lalu klik nama.
+f.	Kemudian masukan password yang udah kalian buat
+g.	Ubuntu yang udah kalian restart akan otomatis kembali desktop ubuntu
+h.	Setelah itu tunggu ubuntunya sampai ada tulisan “Reboot scheduled for tue 2025-03-11 07:07:00 utc,use ‘shutdown -c’ to cancel.
