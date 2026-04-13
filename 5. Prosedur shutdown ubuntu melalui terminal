@@ -1,0 +1,5 @@
+a.	Buka terminal dengan Ctrl + Alt + T.
+b.	Jalankan perintah sudo shutdown now.
+c.	Masukkan password lalu tekan enter.
+d.	Tunggu hingga sistem mati. 
+e.	Otomatis kembali ke VirtualBox.
